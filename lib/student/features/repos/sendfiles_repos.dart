@@ -1,0 +1,39 @@
+import 'dart:convert';
+import 'dart:developer';
+import 'package:http/http.dart' as http;
+import 'package:wisefox/student/features/service/api_service.dart';
+import 'package:wisefox/apps/utils/urls.dart';
+
+class FileRepository {
+  ApiService apiService = ApiService();
+
+  Future<http.Response> shareFileToApi({
+    required int? id,
+    required List<int> receiver,
+    required String file,
+    required String title,
+    required String notes,
+    required bool isDraft,
+  }) async {
+    final body = {
+      // Include id if needed
+      "id": id,
+      "reciever": receiver.first.toString(),
+      "file": file,
+      "title": title,
+      "notes": notes,
+      "is_draft": isDraft,
+    };
+
+    try {
+      log("Request body: $receiver");
+      final response =
+          await apiService.postResponse(Url.filesharepost, jsonEncode(body));
+      log("Completed request: $body");
+      log('Response Status: ${response.body}');
+      return response;
+    } catch (e) {
+      throw Exception('Failed to share file to API: $e');
+    }
+  }
+}
