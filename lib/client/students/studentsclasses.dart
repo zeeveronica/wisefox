@@ -2,8 +2,8 @@ import 'dart:math';
 
 import 'package:wisefox/client/features/bloc/studentlesson/studentlesson_bloc.dart';
 import 'package:wisefox/client/features/screens/class_details.dart';
-import 'package:wisefox/client/features/utils/thecolors.dart';
-import 'package:wisefox/client/features/utils/theimage.dart';
+import '../../apps/utils/thecolors.dart';
+import '../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 import 'package:wisefox/client/students/studentclassdetails.dart';
 import 'package:flutter/material.dart';

@@ -12,8 +12,9 @@ import 'package:wisefox/student/features/bloc/sentedfiles/sentedfiles_bloc.dart'
 import 'package:wisefox/student/features/bloc/tutorlist/tutorlist_bloc.dart';
 import 'package:wisefox/student/features/screens/bottom_nav.dart';
 import 'package:wisefox/student/features/screens/file_sharing_page.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
-import 'package:wisefox/student/features/utils/theimage.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 
 class ShareFilePage extends StatefulWidget {

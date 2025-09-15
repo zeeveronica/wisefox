@@ -6,9 +6,10 @@ import 'package:wisefox/student/features/bloc/auth_bloc.dart';
 import 'package:wisefox/student/features/repos/auth_repos.dart';
 import 'package:wisefox/student/features/screens/bottom_nav.dart';
 import 'package:wisefox/student/features/screens/home_page.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
-import 'package:wisefox/student/features/utils/theicons.dart';
-import 'package:wisefox/student/features/utils/theimage.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theicons.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 import 'package:http/http.dart' as http;
 

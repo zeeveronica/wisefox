@@ -5,6 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
+import 'package:wisefox/apps/utils/thecolors.dart';
 import 'package:wisefox/main.dart';
 import 'package:wisefox/student/features/bloc/auth_bloc.dart';
 import 'package:wisefox/student/features/bloc/bloc/cancellesson_bloc.dart';
@@ -36,7 +37,7 @@ import 'package:wisefox/student/features/screens/getstart_page.dart';
 import 'package:wisefox/student/features/screens/login_page.dart';
 import 'package:wisefox/student/features/service/api_service.dart';
 import 'package:wisefox/student/features/service/shared_preferences.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
+
 
 // void main() async {
 //   WidgetsFlutterBinding.ensureInitialized(); // Ensure async initialization

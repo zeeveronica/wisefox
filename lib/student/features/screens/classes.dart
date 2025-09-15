@@ -838,8 +838,9 @@ import 'package:wisefox/student/features/bloc/lessons/lesson_bloc.dart';
 import 'package:wisefox/student/features/bloc/tutor/tutor_bloc.dart';
 import 'package:wisefox/student/features/screens/active_lessons.dart';
 import 'package:wisefox/student/features/screens/class_details.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
-import 'package:wisefox/student/features/utils/theimage.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 
 class ClassesPage extends StatefulWidget {

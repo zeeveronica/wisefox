@@ -356,7 +356,8 @@ import 'package:wisefox/client/features/bloc/studentcount/studentcount_bloc.dart
 import 'package:wisefox/client/features/model/sentedfile_model.dart';
 import 'package:wisefox/client/features/screens/democlassrequirment.dart';
 import 'package:wisefox/client/features/screens/studentadmission.dart';
-import 'package:wisefox/client/features/utils/thecolors.dart';
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

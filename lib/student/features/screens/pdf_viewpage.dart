@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 
 class Pdfview extends StatelessWidget {
   final String fileUrl;

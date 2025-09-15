@@ -5,7 +5,7 @@ import 'package:webview_flutter/webview_flutter.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:wisefox/student/features/screens/lessons_page.dart';
 import 'package:wisefox/student/features/screens/bottom_nav.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
+
 
 class WebViewPage extends StatefulWidget {
   final String url;

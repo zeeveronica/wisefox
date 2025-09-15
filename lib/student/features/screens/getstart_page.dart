@@ -3,9 +3,10 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:lottie/lottie.dart';
 import 'package:wisefox/student/features/screens/login_page.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
-import 'package:wisefox/student/features/utils/theicons.dart';
-import 'package:wisefox/student/features/utils/theimage.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theicons.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 
 class GetstartPage extends StatefulWidget {

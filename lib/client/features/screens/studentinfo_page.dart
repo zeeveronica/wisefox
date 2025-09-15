@@ -1,8 +1,8 @@
 import 'package:wisefox/client/features/model/sentedfile_model.dart';
 
 import 'package:wisefox/client/features/screens/tutor_page.dart';
-import 'package:wisefox/client/features/utils/thecolors.dart';
-import 'package:wisefox/client/features/utils/theimage.dart';
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

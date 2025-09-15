@@ -7,7 +7,9 @@ import 'package:wisefox/apps/utils/utils.dart';
 import 'package:wisefox/student/features/bloc/filesharing/filesharing_bloc.dart';
 import 'package:wisefox/student/features/screens/open_recieved_file.dart';
 import 'package:wisefox/student/features/screens/share_file_page.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 
 class RecievedFilesPage extends StatefulWidget {

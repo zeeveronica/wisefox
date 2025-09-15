@@ -8,7 +8,7 @@ import 'package:wisefox/client/features/screens/classes.dart';
 import 'package:wisefox/student/features/screens/home_page.dart';
 
 import 'package:wisefox/student/features/service/api_service.dart';
-import 'apps/utils/screens/commingSoon.dart';
+import 'apps/widget/commingSoon.dart';
 import 'student/features/screens/timer.dart';
 import 'apps/login.dart'; // Import your unified login
 import 'package:flutter_svg/flutter_svg.dart';

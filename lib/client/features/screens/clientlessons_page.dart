@@ -2,8 +2,8 @@ import 'package:wisefox/client/features/screens/cancelled.dart';
 import 'package:wisefox/client/features/screens/classes.dart';
 import 'package:wisefox/client/features/screens/completed.dart';
 import 'package:wisefox/client/features/screens/tabbar_lessons.dart';
-import 'package:wisefox/client/features/utils/thecolors.dart';
-import 'package:wisefox/client/features/utils/theimage.dart';
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -62,7 +62,7 @@ class ClientLessonsPage extends StatelessWidget {
                       ),
                       labelColor: Colors.black,
                       unselectedLabelColor: theColors.textgrey,
-                      tabs: [
+                      tabs: const [
                         LessonsTabbar(title: "Classes"),
                         LessonsTabbar(title: "Completed"),
                         LessonsTabbar(title: "Cancelled"),
@@ -70,7 +70,7 @@ class ClientLessonsPage extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: w * 0.03),
-                  Expanded(
+                  const Expanded(
                     child: TabBarView(
                       physics: NeverScrollableScrollPhysics(),
                       children: [

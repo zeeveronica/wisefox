@@ -1,6 +1,6 @@
 import 'package:wisefox/client/features/screens/Tabbar_page_share.dart';
-import 'package:wisefox/client/features/utils/thecolors.dart';
-import 'package:wisefox/client/features/utils/theimage.dart';
+import '../../apps/utils/thecolors.dart';
+import '../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 import 'package:wisefox/client/students/recieved_files.dart';
 import 'package:wisefox/client/students/studentsentedfile_page.dart';

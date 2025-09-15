@@ -3,8 +3,9 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:wisefox/student/features/screens/bottom_nav.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
-import 'package:wisefox/student/features/utils/theimage.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 
 class ChatPage extends StatefulWidget {

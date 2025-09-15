@@ -224,7 +224,9 @@ import 'package:http/http.dart' as http;
 import 'package:permission_handler/permission_handler.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:wisefox/student/features/screens/pdf_viewpage.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 import 'package:url_launcher/url_launcher.dart';
 

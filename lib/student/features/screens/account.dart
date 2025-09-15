@@ -17,8 +17,9 @@ import 'package:wisefox/student/features/screens/login_page.dart';
 import 'package:wisefox/student/features/screens/personel_info.dart';
 import 'package:wisefox/student/features/screens/privacy_policy.dart';
 import 'package:wisefox/student/features/screens/secuirity.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
-import 'package:wisefox/student/features/utils/theimage.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 
 class Myaccount extends StatefulWidget {

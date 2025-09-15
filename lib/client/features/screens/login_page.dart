@@ -1,9 +1,9 @@
 import 'package:wisefox/client/features/bloc/auth_bloc.dart';
 import 'package:wisefox/client/features/repos/auth_repos.dart';
 import 'package:wisefox/client/features/screens/bottom_nav.dart';
-import 'package:wisefox/client/features/utils/thecolors.dart';
-import 'package:wisefox/client/features/utils/theicons.dart';
-import 'package:wisefox/client/features/utils/theimage.dart';
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theicons.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

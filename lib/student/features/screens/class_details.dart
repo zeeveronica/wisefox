@@ -12,9 +12,10 @@ import 'package:wisefox/student/features/screens/bottom_nav.dart';
 import 'package:wisefox/student/features/screens/chat_page.dart';
 import 'package:wisefox/student/features/screens/lessons_page.dart';
 import 'package:wisefox/student/features/screens/tutor_info_page.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
-import 'package:wisefox/student/features/utils/theicons.dart';
-import 'package:wisefox/student/features/utils/theimage.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theicons.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 
 class ClassDetails extends StatefulWidget {

@@ -5,8 +5,9 @@ import 'package:intl/intl.dart';
 import 'package:wisefox/student/features/model/tutor_model.dart';
 import 'package:wisefox/student/features/screens/login_page.dart';
 import 'package:wisefox/student/features/screens/tutor_page.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
-import 'package:wisefox/student/features/utils/theimage.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 
 class TutorInfo extends StatefulWidget {

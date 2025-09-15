@@ -2,7 +2,8 @@ import 'package:wisefox/client/features/bloc/studentfilesharing/student_fileshar
 import 'package:wisefox/client/features/bloc/studentfilesharing/student_filesharing_event.dart';
 import 'package:wisefox/client/features/bloc/studentfilesharing/student_filesharing_state.dart';
 import 'package:wisefox/client/features/screens/open_recieved_file.dart';
-import 'package:wisefox/client/features/utils/thecolors.dart';
+import '../../apps/utils/thecolors.dart';
+
 import 'package:wisefox/main.dart';
 import 'package:wisefox/client/students/studentsharefile_page.dart';
 import 'package:file_picker/file_picker.dart';

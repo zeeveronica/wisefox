@@ -3,7 +3,9 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-import '../../../client/features/utils/thecolors.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 
 class FullDigitalClock extends StatefulWidget {
   const FullDigitalClock({Key? key}) : super(key: key);

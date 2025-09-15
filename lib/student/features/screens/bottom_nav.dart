@@ -12,9 +12,11 @@ import 'package:wisefox/student/features/model/student_model.dart';
 import 'package:wisefox/student/features/screens/file_sharing_page.dart';
 import 'package:wisefox/student/features/screens/home_page.dart';
 import 'package:wisefox/student/features/screens/lessons_page.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
 
-import '../../../apps/utils/screens/commingSoon.dart';
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
+
+import '../../../apps/widget/commingSoon.dart';
 
 
 class Bottomnav extends StatefulWidget {

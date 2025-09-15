@@ -144,7 +144,8 @@
 import 'package:wisefox/client/features/bloc/dashboard/dashboard_bloc.dart';
 import 'package:wisefox/client/features/screens/mystudents.dart';
 import 'package:wisefox/client/features/screens/tutor_page.dart';
-import 'package:wisefox/client/features/utils/thecolors.dart';
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

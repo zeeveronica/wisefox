@@ -6,6 +6,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:wisefox/apps/features/screens/account/personal_info.dart';
 import 'package:wisefox/apps/login.dart';
+import 'package:wisefox/apps/utils/thecolors.dart';
 import 'package:wisefox/apps/utils/utils.dart';
 import 'package:wisefox/apps/features/bloc/auth_bloc.dart';
 import 'package:wisefox/student/features/screens/about_page.dart';
@@ -13,9 +14,10 @@ import 'package:wisefox/student/features/screens/feedback.dart';
 import 'package:wisefox/student/features/screens/help_center.dart';
 import 'package:wisefox/student/features/screens/privacy_policy.dart';
 import 'package:wisefox/student/features/screens/secuirity.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
-import 'package:wisefox/student/features/utils/theimage.dart';
+
 import 'package:wisefox/main.dart';
+
+import '../../../utils/theimage.dart';
 
 class Myaccount extends StatefulWidget {
   const Myaccount({super.key});

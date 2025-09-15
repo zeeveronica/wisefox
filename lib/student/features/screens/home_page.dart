@@ -25,12 +25,13 @@ import 'package:wisefox/student/features/screens/class_details.dart';
 import 'package:wisefox/student/features/screens/demo_seeall.dart';
 import 'package:wisefox/student/features/screens/notification.dart';
 import 'package:wisefox/student/features/screens/tutor_page.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
-import 'package:wisefox/student/features/utils/theimage.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:wisefox/main.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:wisefox/student/features/service/shared_preferences.dart';
-import '../../../apps/utils/screens/commingSoon.dart';
+import '../../../apps/widget/commingSoon.dart';
 import 'timer.dart';
 
 class HomePage extends StatefulWidget {
@@ -113,13 +114,13 @@ Future<void> getUserName() async {
                             ? SizedBox(
                                 height: w * 0.02,
                                 width: w * 0.02,
-                                child: CircularProgressIndicator(
+                                child: const CircularProgressIndicator(
                                   strokeWidth: 2,
                                   valueColor: AlwaysStoppedAnimation<Color>(
                                       theColors.primaryColor),
                                 ),
                               )
-                            : Container(
+                            : SizedBox(
                                 height: w * 0.025,
                                 width: w * 0.025,
                                 child: Image.asset(

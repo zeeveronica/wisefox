@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:wisefox/client/features/bloc/sentedfiles/sentedfiles_bloc.dart';
-import 'package:wisefox/client/features/utils/thecolors.dart';
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';

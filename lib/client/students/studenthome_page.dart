@@ -15,8 +15,7 @@ import 'package:wisefox/client/features/screens/class_details.dart';
 import 'package:wisefox/client/students/demo_seeall.dart';
 import 'package:wisefox/client/features/screens/notification.dart';
 import 'package:wisefox/client/features/screens/tutor_page.dart';
-import 'package:wisefox/client/features/utils/thecolors.dart';
-import 'package:wisefox/client/features/utils/theimage.dart';
+
 import 'package:wisefox/main.dart';
 import 'package:wisefox/client/students/studentclassdetails.dart';
 import 'package:wisefox/client/students/studenttutor_page.dart';
@@ -30,6 +29,9 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:intl/intl.dart';
 
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+
+import '../../apps/utils/thecolors.dart';
+import '../../apps/utils/theimage.dart';
 
 class StudentsHomePage extends StatefulWidget {
   const StudentsHomePage({

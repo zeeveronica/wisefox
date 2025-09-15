@@ -365,8 +365,9 @@ import 'package:wisefox/client/features/model/tutor_model.dart';
 import 'package:wisefox/student/features/bloc/students/student_bloc.dart';
 import 'package:wisefox/student/features/model/student_model.dart';
 import 'package:wisefox/student/features/screens/bottom_nav.dart';
-import 'package:wisefox/student/features/utils/thecolors.dart';
-import 'package:wisefox/student/features/utils/theimage.dart';
+
+import '../../../apps/utils/thecolors.dart';
+import '../../../apps/utils/theimage.dart';
 
 class PersonalDetailsPage extends StatefulWidget {
   const PersonalDetailsPage({super.key});
